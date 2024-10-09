@@ -12,6 +12,8 @@ class SignInViewModel: ObservableObject {
     
     func loadUserDataOrCreateNew() {
     
+        print("Test")
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
 
             self.path.removeLast(self.path.count)
